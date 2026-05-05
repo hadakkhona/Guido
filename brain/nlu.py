@@ -11,8 +11,6 @@ log = logging.getLogger(__name__)
 VALID_INTENTS = ["GUIDE_TO", "UNKNOWN"]
 
 
-
-
 class NLU:
     def __init__(self, model: str = "gemma2:2b", ollama_url: str = "http://localhost:11434"):
         self.model = model
