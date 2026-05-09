@@ -1,2 +1,5 @@
 requests
 pyttsx3
+opencv-python
+numpy
+pyserial
