@@ -40,3 +40,8 @@ class Config:
     NLU_TIMEOUT     = 15               # Seconds to wait for Ollama response
     LOOP_DELAY      = 0.5              # Delay between main loop iterations
     ERROR_DELAY     = 1.0             # Delay after an error before retrying
+
+    # RFID (RC522 via SPI)
+    RFID_RST_PIN = 22
+    RFID_SDA_PIN = 24   # also called SS/CS
+    RFID_COOLDOWN = 2.0  # seconds between scans
