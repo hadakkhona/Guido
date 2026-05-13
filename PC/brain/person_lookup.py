@@ -1,5 +1,5 @@
 import logging
-from brain.navigation_map import NavigationMap, ROOMS
+from PC.brain.navigation_map import NavigationMap, ROOMS
 
 log = logging.getLogger(__name__)
 
@@ -15,7 +15,7 @@ class PersonLookup:
         # -------------------------
         self.people = {
 
-            # Top row
+            # Top row  #  people: 9
             "alae": "1.39",
             "youssef": "1.38",
             "mephtha": "1.33",
@@ -26,7 +26,7 @@ class PersonLookup:
             "badr": "1.27",
             "taha": "1.26",
 
-            # Right corridor
+            # Right corridor # people: 7
             "masrour": "1.15",
             "abibaw": "1.12",
             "mezzan": "1.11",
@@ -35,7 +35,7 @@ class PersonLookup:
             "adamo": "1.06",
             "zineddine": "1.04",
 
-            # Left side
+            # Left side   # people: 7
             "loubna": "1.46",
             "asmae": "1.48",
             "hafid": "1.49",
@@ -44,10 +44,10 @@ class PersonLookup:
             "dir el hilali": "1.55",
             "khaoula": "1.57",
 
-            # Bottom row (directors / profs)
+            # Bottom row (directors / profs) # people: 1
             "meriem": "1.66",
 
-            # Top right
+            # Top right # people: 2
             "saidou": "1.19",
             "mouha": "1.16",
         }

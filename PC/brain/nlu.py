@@ -1,9 +1,11 @@
 # brain/nlu.py — Understands user input using Ollama + Gemma 2
 
+from html import entities
+
 import requests
 import json
 import logging
-from brain.prompts import SYSTEM_PROMPT
+from PC.brain.prompts import SYSTEM_PROMPT
 
 log = logging.getLogger(__name__)
 
@@ -75,6 +77,15 @@ class NLU:
 
         entities = {}
         if destination:
-            entities["destination"] = destination
+            destination = destination.lower()
+
+            # remove common prefixes
+            for prefix in ["lab", "room", "bureau"]:
+                destination = destination.replace(prefix, "")
+
+                destination = destination.strip()
+
+                entities["destination"] = destination
 
         return intent, entities
+    

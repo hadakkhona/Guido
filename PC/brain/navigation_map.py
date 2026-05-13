@@ -111,11 +111,11 @@ ROOMS = {
             "path_key": "bottom_right"
             },
 
-
+#9
     # -------------------------
     # BUREAUX — Offices
     # -------------------------
-    # Left side
+    # Left side # number: 8
     "1.46": {
         "name": "Bureau 1.46",
         "type": "BUREAU",
@@ -176,7 +176,7 @@ ROOMS = {
         "path_key": "left_corridor"
         },
 
-    # Bottom corridor
+    # Bottom corridor # number: 12
     "1.62": {
         "name": "Bureau 1.62",
         "type": "BUREAU",
@@ -265,7 +265,7 @@ ROOMS = {
         "path_key": "bottom_corridor"
         },
 
-    # Right corridor
+    # Right corridor # number: 11
     "1.04": {
         "name": "Bureau 1.04",
         "type": "BUREAU",
@@ -322,15 +322,29 @@ ROOMS = {
         "marker_id": 112,
         "path_key": "right_corridor"
         },
-    "1.13": {
-        "name": "Bureau 1.13",
+    "1.15": {
+        "name": "Bureau 1.15",
         "type": "BUREAU",
-        "aliases": ["1.13"],
-        "marker_id": 113,
+        "aliases": ["1.15"],
+        "marker_id": 115,
         "path_key": "right_corridor"
         },
+    "1.12": {
+        "name": "Bureau 1.12",
+        "type": "BUREAU",
+        "aliases": ["1.12"],
+        "marker_id": 112,
+        "path_key": "right_corridor"
+        },
+    "1.16": {
+        "name": "Bureau 1.16",
+        "type": "BUREAU",
+        "aliases": ["1.16"],
+        "marker_id": 116,
+        "path_key": "top_right"
+        },
 
-    # Top corridor
+    # Top corridor # number: 11
     "1.23": {
         "name": "Bureau 1.23",
         "type": "BUREAU",
@@ -394,6 +408,20 @@ ROOMS = {
         "marker_id": 133,
         "path_key": "top_corridor"
         },
+    "1.38": {
+        "name": "Bureau 1.38",
+        "type": "BUREAU",
+        "aliases": ["1.38"],
+        "marker_id": 138,
+        "path_key": "top_corridor"
+        },
+    "1.39": {
+        "name": "Bureau 1.39",
+        "type": "BUREAU",
+        "aliases": ["1.39"],
+        "marker_id": 139,
+        "path_key": "top_corridor"
+        },
 
     # -------------------------
     # SERVICES
@@ -435,13 +463,14 @@ ROOMS = {
     # -------------------------
     # AUTRES
     # -------------------------
-    "1.16": {
-        "name": "Bureau 1.16",
-        "type": "BUREAU",
-        "aliases": ["1.16"],
-        "marker_id": 116,
-        "path_key": "top_right"
+    "1.14": {
+        "name": "Salle 1.14",
+        "type": "AUTRE",
+        "aliases": ["1.14"],
+        "marker_id": 114,
+        "path_key": "right_corridor"
         },
+    
     "1.17": {
         "name": "Salle 1.17",
         "type": "AUTRE",
@@ -479,6 +508,7 @@ ROOMS = {
         },
 }
 
+# total: 10 labs, 40 bureaux, 6 services, 5 autres = 61 rooms
 
 
 # ----------------------------

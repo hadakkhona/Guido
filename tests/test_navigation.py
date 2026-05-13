@@ -1,5 +1,5 @@
 # tests/test_navigation.py
-from brain.navigation_map import NavigationMap
+from PC.brain.navigation_map import NavigationMap
 
 nav = NavigationMap()
 

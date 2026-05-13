@@ -8,6 +8,8 @@ Rules:
 - If the user wants to be guided somewhere → intent is GUIDE_TO
 - If the request is anything else → intent is UNKNOWN
 - ALWAYS respond in pure JSON, nothing else, no explanation, no markdown
+- Do not correct or modify spelling of names.
+- Return them exactly as written by the user.
 
 Response format:
 {"intent": "GUIDE_TO", "destination": "library"}

@@ -5,8 +5,8 @@ import logging
 from config import Config
 from perception.voice_listener import VoiceListener
 from perception.camera import Camera
-from brain.nlu import NLU
-from brain.decision_maker import DecisionMaker
+from PC.brain.nlu import NLU
+from PC.brain.decision_maker import DecisionMaker
 from communication.serial_bridge import SerialBridge
 from communication.voice_speaker import VoiceSpeaker
 
