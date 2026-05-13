@@ -3,3 +3,6 @@ pyttsx3
 opencv-python
 numpy
 pyserial
+pytest
+mfrc522 # Linux / Raspberry Pi OS
+RPi.GPIO # Linux / Raspberry Pi OS
