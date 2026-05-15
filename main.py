@@ -3,8 +3,8 @@
 import time
 import logging
 from config import Config
-from perception.voice_listener import VoiceListener
-from perception.camera import Camera
+from Raspberry.perception.voice_listener import VoiceListener
+from Raspberry.perception.camera import Camera
 from PC.brain.nlu import NLU
 from PC.brain.decision_maker import DecisionMaker
 from communication.serial_bridge import SerialBridge

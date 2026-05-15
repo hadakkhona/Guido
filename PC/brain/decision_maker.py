@@ -5,7 +5,7 @@ from config import Config
 from communication.serial_bridge import SerialBridge
 from communication.voice_speaker import VoiceSpeaker
 from PC.brain.navigation_map import NavigationMap
-from perception.rfid_reader import RFIDReader
+from Raspberry.perception.rfid_reader import RFIDReader
 
 
 log = logging.getLogger(__name__)
